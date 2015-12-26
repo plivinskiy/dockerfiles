@@ -31,6 +31,7 @@ RUN dnf --enablerepo=remi --enablerepo=remi-test -y install \
   php70-php-mysqlnd \
   php70-php-pdo \
   php70-php-pgsql \
+  php70-php-intl \
   php70-php-xml; \
   dnf clean all
 
